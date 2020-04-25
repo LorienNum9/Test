@@ -128,4 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-print("How does this work?)
+number = input("What is a number between 1 and 3? ")
+if (number == "2"):
+    print("Congrats!")
+else:
+    print("Wroonggg")
